@@ -3,3 +3,6 @@ help:  ## Show help
 
 run-dev: ## Run development server
 	streamlit run src/Home.py
+
+run-docker: ## Run docker container
+	docker compose -f docker/docker-compose.yaml up -d
